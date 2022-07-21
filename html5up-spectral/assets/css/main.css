@@ -4027,10 +4027,10 @@ input, select, textarea {
 	}
 
 	#banner .zitat {
-		font-size: 3em;
+		font-size: 1.5em;
 		text-transform: none;
 		letter-spacing: normal;
-		margin: 0 auto;
+		margin: 0 auto 2em auto;
 		max-width: 15em;
 		font-family: 'Tangerine', cursive;
 		line-height: 1;
@@ -4053,7 +4053,7 @@ input, select, textarea {
 		margin-top: -5em;
 	}
 	#banner .zitat, #banner .abschied {
-		font-size: 1.4em;
+		font-size: 1em;
 		text-transform: none;
 		letter-spacing: normal;
 		
@@ -4063,8 +4063,9 @@ input, select, textarea {
 	}
 
 	#banner .abschied {
+		font-size: 1.5em;
 		line-height: 1;
-		margin: 1em auto;
+		margin: 1em auto 0 auto;
 	}
 	
 	@media screen and (max-width: 736px) {
