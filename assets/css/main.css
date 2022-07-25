@@ -4141,17 +4141,14 @@ input, select, textarea {
 		border:white 1px solid;
 		border-radius:0.6em;
 		margin-bottom: 2em;
+		padding-bottom: 1em;
+
+		outline:5px solid white;
+		outline-offset:9px;
 					
 	}
 
-	.dickerRahmen {
-		aspect-ratio: 4/6;
-		height: auto;
-		border:white 3px solid;
-		border-radius:0.6em;
-		margin: 0 auto;
-		padding:1em
-	}
+	
 	
 
 	#one .trauerfeierDetails h3 {
