@@ -3692,7 +3692,7 @@ input, select, textarea {
 			-moz-transition-delay: 1.25s;
 			-webkit-transition-delay: 1.25s;
 			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s;
+			transition-delay: 0.2s;
 			content: '';
 			background: #2e3842;
 			display: block;
@@ -4116,7 +4116,7 @@ input, select, textarea {
 		color: white;
 		max-width: 75%;
 		margin: 0 auto;
-		margin-bottom: 2em;
+		
 		font-size: 1.1em;
 		line-height: 1.5;
 		
@@ -4139,13 +4139,13 @@ input, select, textarea {
 		aspect-ratio: 4/6;
 		height: auto;
 		border:white 1px solid;
-		border-radius:0.6em;
+		
 		margin:2em;
 		
 		padding-bottom: 1em;
 
 		outline:5px solid white;
-		outline-offset:9px;
+		outline-offset:-10px;
 					
 	}
 
