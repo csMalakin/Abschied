@@ -1962,4 +1962,7 @@ input, select, textarea {
 			top: 0;
 			opacity: 0;
 		}
+		#banner .zitat {
+		max-width: 90%;	
+		}
 	}
