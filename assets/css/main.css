@@ -4140,7 +4140,8 @@ input, select, textarea {
 		height: auto;
 		border:white 1px solid;
 		border-radius:0.6em;
-		margin-bottom: 2em;
+		margin:2em;
+		
 		padding-bottom: 1em;
 
 		outline:5px solid white;
@@ -4163,4 +4164,39 @@ input, select, textarea {
 	#one .trauerfeierDetails h5 {
 		margin:0;
 		margin-top: -2em;
+	}
+
+	@media screen and (max-width:450px) {
+	
+	
+		#one .trauerfeierDetails p{
+			
+		
+			font-size: 0.9em;
+			line-height: 1.5;
+			
+		}
+	
+		
+			
+			
+	
+		
+		
+		
+	
+		#one .trauerfeierDetails h3 {
+			letter-spacing: normal;
+			text-transform: none;
+			font-family: 'Tangerine', cursive;
+			font-size:3em;
+			margin-bottom: 0;
+			margin-top: -0.5em;
+			
+		}
+		#one .trauerfeierDetails h5 {
+			margin:0;
+			margin-top: -2em;
+		}
+		
 	}
