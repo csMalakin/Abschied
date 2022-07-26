@@ -105,7 +105,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #fff;
 		font-family: "Domine", Helvetica, sans-serif;
-		font-size: 15pt;
+		font-size: 13pt;
 		font-weight: 400;
 		
 		
@@ -121,7 +121,7 @@ input, select, textarea {
 		@media screen and (max-width: 760px) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 12pt;
 			}
 
 			#banner .inner img {
@@ -131,10 +131,20 @@ input, select, textarea {
 		}
 
 
-		@media screen and (max-width: 450px) {
+		@media screen and (max-width: 500px) {
 
 			body, input, select, textarea {
 				font-size: 9pt;
+			}
+
+		}
+
+		
+		@media screen and (max-width: 385px) {
+
+			body, input, select, textarea {
+				font-size: 8pt;
+
 			}
 
 		}
@@ -1652,11 +1662,15 @@ input, select, textarea {
 		font-family: 'Tangerine', cursive;
 		font-size:4em;
 		margin-bottom: 0;
-		margin-top: -0.5em;
+		
 		line-height: 1.65em;
 	}
 
-	
+	@media screen and (max-width:760px ) {
+		#name {
+			margin-top: -0.5em;
+		}
+	}
 
 	#one {
 		min-height: 100vh;
@@ -1810,7 +1824,7 @@ input, select, textarea {
 		
 	}
 
-	/* @media screen and (max-width:450px) {
+	@media screen and (max-width:500px) {
 	
 	
 	
@@ -1827,7 +1841,7 @@ input, select, textarea {
 		}
 		
 		
-	} */
+	}
 
 
 	@media screen and (max-height: 801px) {
@@ -1965,4 +1979,11 @@ input, select, textarea {
 		#banner .zitat {
 		max-width: 90%;	
 		}
+	}
+
+	#one .trauerfeierDetails .signatur{
+		font-size: 2.5em;
+		padding-top: 0.5em;
+		font-family: 'Great Vibes', cursive;
+
 	}
